@@ -1,0 +1,437 @@
+.label-title {
+    font-size: 30px;
+    text-align: center;
+    border: solid 3px  #ffeeee;
+     border-radius: 6px;
+     background:  #fcb7b7;
+     color: #fff;
+    }
+    
+    form {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 720px;
+    }
+    
+    .radioinput {
+    text-align: center;
+    }
+    
+    .form-sample {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-bottom: 15px;
+    }
+    
+    .form-radio {
+    display: flex;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-bottom: 15px;
+    }
+    
+    .radio-label {
+    width: 100%;
+    max-width: 500px;
+    margin-left: 20px;
+    font-size: 18px;
+    }
+    
+    
+    .form-label {
+    width: 100%;
+    max-width: 248px;
+    font-weight: bold;
+    font-size: 14px;
+    }
+    
+    .form-label.last {
+    margin-top: 10px;
+    margin-bottom: auto;
+    }
+    
+    .form-require {
+    border-radius: 5px;
+    margin-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 55px;
+    display: inline-block;
+    text-align: center;
+    background: #340beb;
+    color: #fff;
+    font-size: 15px;
+    }
+    
+    .form-input {
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin-left: 40px;
+    padding-left: 10px;
+    height: 50px;
+    width: 100%;
+    max-width: 410px;
+    font-size: 18px;
+    }
+    
+    .form-textarea {
+    border: 1px solid gray;
+    border-radius: 6px;
+    margin-left: 40px;
+    padding-left: 1em;
+    padding-right: 1em;
+    height: 216px;
+    flex: 1;
+    width: 100%;
+    max-width: 410px;
+    font-size: 18px;
+    }
+    
+    .form-Btn {
+    border-radius: 6px;
+    margin-top: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 280px;
+    display: block;
+    letter-spacing: 0.05em;
+    background: #340beb;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    }
+    .h1 {
+        text-align: right;
+        
+    }
+    
+    .design01 {
+        width: 100%;
+        text-align: center;
+        border-collapse: collapse;
+        border-spacing: 0;
+       }
+       .design01 tr:nth-child(2n+1) {
+        background: #e9faf9;
+       }
+       .design01 th {
+        padding: 10px;
+        background: #778ca3;
+        border-right: solid 1px #778ca3;
+        color: #ffffff;
+       }
+       .design01 th:last-child {
+        border-right: none;
+       }
+       .design01 td {
+        padding: 10px;
+        border-right: solid 1px #778ca3; 
+       }
+       .design01 td:last-child {
+        border-right: none;
+       }
+       .wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr; /* 幅3等分 */
+        grid-template-rows: 100px 100px 100px 100px; /* 100pxの2行 */
+        grid-gap: 10px; /* 隙間10px */
+        margin-bottom: 20px;
+    }
+    .wrapper > div {
+        h1{border-bottom: 2px dotted #000;}
+        border-radius: 5px;
+        background: rgb(207,232,220);
+        border: 2px solid rgb(79,185,227);
+        padding: 1em;
+        
+    }
+    
+    .design02{
+        width:100%;
+        background-color:#fafafa;
+    }
+    .design02 .container{
+        max-width:1000px;
+        margin:0px auto;
+        padding:80px 0px;
+    }
+    /* content */
+    @media (min-width: 992px) {
+        .wrapper .container .content {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+    .design02 .content-item {
+        width:100%;
+    }
+    @media (min-width: 992px) {
+        .wrapper .content-item {
+            width:50%;
+        }
+    }
+    .design02 .image{
+        display:block;
+        max-width:70%;
+        margin:0px auto;
+    }
+    .design02 .text{
+        padding:50px;
+    }
+    .design02 .text .heading{
+        margin:0px 0px 40px 0px;
+        font-size: 24px;
+        font-weight: normal;
+        text-align: center;
+    }
+    .design03{
+        width:100%;
+    }
+    .design03 .container{
+        max-width:1000px;
+        margin:0px auto;
+        padding:80px 0px;
+    }
+    /* content */
+    .design03 .content .heading{
+        margin:0px 0px 40px 0px;
+        font-size: 24px;
+        font-weight: normal;
+        text-align: center;
+    }
+    @media (min-width: 992px) {
+        .design03 .content .list {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+    .design03 .content .list-item {
+        margin:50px 0px;
+        padding:0px 50px;
+        text-align:center;
+    }
+    @media (min-width: 992px) {
+        .design03 .content .list-item {
+            margin:0px;
+            width:calc(100% / 3);
+        }
+    }
+    .design03 .content .list-item .image{
+        display:block;
+        width:100%;
+        max-width:300px;
+        margin:0px auto 20px auto;
+        border-radius:100%;
+    }
+    .design03 .content .list-item .text{
+        line-height:1.8rem;
+        font-size:0.8rem;
+        color:#666666;
+    }
+
+/* setup */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  transition: all 60ms ease;
+}
+
+/* variables */
+.menu ul a, .menu ul li {
+  display: block;
+  position: relative;
+}
+
+.menu a, .menu li {
+  display: inline-block;
+  position: relative;
+}
+
+/* 
+Essential Styles 
+- - - - - - - - - - - -
+I like to keep the specificity low by using tags to make it easy to override the basic strucuture, if needed.  Adding an id to the root element would offer more isolation.
+
+*/
+.menu {
+  position: relative;
+  list-style: none;
+  float: left;
+  padding: 0;
+  margin: 0;
+}
+.menu li {
+  float: left;
+}
+.menu a {
+  height: 3rem;
+  line-height: 3rem;
+  width: 100%;
+}
+.menu ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0px;
+  width: 180px;
+  min-width: 180px;
+  padding: 0;
+  margin: 0;
+}
+.menu ul ul {
+  top: -0.35rem;
+  left: 100%;
+}
+.menu ul li {
+  float: left;
+  width: 100%;
+}
+.menu ul a {
+  height: 2rem;
+  line-height: 2rem;
+}
+.menu li:hover > .sub-menu {
+  display: block;
+}
+.menu:before, .menu:after {
+  content: " ";
+  display: table;
+}
+.menu:after {
+  clear: both;
+}
+
+/* THEME  */
+.navbar {
+  background: #D2D7D3;
+  
+}
+.navbar:before, .navbar:after {
+  content: " ";
+  display: table;
+}
+.navbar:after {
+  clear: both;
+}
+
+.menu {
+  width: 100%;
+  /* Change this in order to change the Dropdown symbol */
+}
+.menu li {
+  border-right: 1px dotted #ECECEC;
+  width: 25%;
+}
+.menu li:last-child {
+  border-right: none;
+}
+.menu a {
+  color: #6C7A89;
+  font-size: 0.75rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 0 0.75rem;
+}
+.menu a:hover, .menu a.active {
+  color: #F2784B;
+  /* border-bottom: 1px solid; */
+}
+.menu li > a:after, .menu .sub-menu li > a:after {
+  line-height: 1em;
+  font-size: 6px;
+  padding-left: 6px;
+  position: relative;
+  top: -2px;
+}
+.menu .sub-menu li > a:after {
+  content: " ▶";
+}
+.menu li > a:after {
+  content: " ▼";
+}
+.menu li > a:only-child:after,
+.menu .sub-menu li > a:only-child:after {
+  content: "";
+}
+.menu .sub-menu {
+  background: #34495e;
+  padding: 0.35rem 0.25rem 0.25rem;
+}
+.menu .sub-menu li {
+  border-right: none;
+}
+.menu .sub-menu a {
+  color: #F2F1EF;
+  /* padding: 0.35rem ($menuHeight / 2); */
+}
+.menu .sub-menu a:hover {
+  background: #2C3E50;
+  border-bottom: none;
+}
+.menu .sub-menu:before {
+  content: "";
+  border-bottom: 14px solid #34495e;
+  border-right: 14px solid transparent;
+  position: absolute;
+  top: -14px;
+  left: 0;
+}
+.menu .sub-menu .sub-menu {
+  background: #2C3E50;
+}
+.menu .sub-menu .sub-menu:before {
+  content: " ";
+  border-right: 14px solid #2C3E50;
+  border-bottom: 14px solid transparent;
+  position: absolute;
+  top: 0;
+  left: -14px;
+}
+.menu .sub-menu .sub-menu li a:hover,
+.menu .sub-menu .sub-menu li a:active {
+  background: #34495e;
+}
+.menu .active,
+.menu .current_page_item a,
+.menu .current-menu-item a {
+  color: #6C7A89;
+}
+
+/* DEMO PAGE STYLE */
+html {
+  padding: 40px;
+  background: #ECF0F1;
+}
+
+h3 {
+  color: #2c3e50;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 20px;
+  line-height: 21px;
+  letter-spacing: 10px;
+  margin: 48px auto 0;
+}
+
+h3 + p {
+  font-size: 14px;
+  font-family: serif;
+  font-style: italic;
+  color: #b5bfc1;
+  text-align: center;
+  border-top: 1px dotted #ccc;
+  width: 360px;
+  padding: 12px;
+  margin: 12px auto 48px;
+}
