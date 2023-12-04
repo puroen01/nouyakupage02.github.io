@@ -1,4 +1,4 @@
- .design01 {
+    .design01 {
         width: 100%;
         text-align: center;
         border-collapse: collapse;
@@ -67,16 +67,15 @@
     }
     .design02 .image{
         display:block;
-        max-width:70%;
+        max-width:50%;
         margin:0px auto;
     }
     .design02 .text{
+        list-style:none;
         padding:50px;
     }
     .design02 .text .heading{
-        margin:0px 0px 40px 0px;
         font-size: 24px;
-        font-weight: normal;
         text-align: center;
     }
     .design03{
